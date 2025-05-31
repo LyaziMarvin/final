@@ -1,0 +1,10 @@
+.env
+
+node_modules/
+sledss2/node_modules/
+back/node_modules/
+
+sledss2/build/
+
+back/.env
+sledss2/.env
