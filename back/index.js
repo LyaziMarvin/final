@@ -10,7 +10,11 @@ const OpenAI = require('openai');
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://final-1-yoe4.onrender.com',
+  credentials: true,
+}));
+
 app.use(express.json());
 
 const SECRET_KEY = '1234'; // Replace with secure value in production
